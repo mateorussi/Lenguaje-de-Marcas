@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"
+    </head>
+
+    <body>
+        <h1>Formulario Web</h1>
+
+        <form>
+            <fieldset>
+                <legend>Detalles Contacto</legend>
+            
+
+            <label>Nombre:</label>
+            <input type="text" name="nombre" maxlength="5" placeholder="Escribe tu nombre" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Escribe tu email" required>
+
+            <br>
+            <label>Teléfono:</label>
+            <input type="number" name="telefono" placeholder="Escribe tu teléfono" required>
+
+            <label>País:</label>
+            <select>
+                <option disabled selected>Escribe tu país</option>
+                <option>México</option>
+                <option>Colombia</option>
+                <option>España</option>
+            </select>
+
+            <label>Edad:</label>
+            <input type="number" name="Edad" value="18" min="18" max="65">
+            
+            <br>
+            <label>Fecha nacimiento:</label>
+            <input type="date" name="fecha" min="1900-01-01" max="3000-12-31">
+
+            <br>
+            <input type="submit" name="submit" value="Enviar">
+
+
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>

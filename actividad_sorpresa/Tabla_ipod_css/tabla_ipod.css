@@ -1,0 +1,40 @@
+th, td {
+    border: 1px solid black;
+    padding: 0;
+  
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#b1 {
+    background-color: blue;
+}
+#c1{
+    background-color: blue;
+} 
+.izq{
+    background-color: red;
+    color: white;
+}
+
+.GB {
+    background-color:grey;
+    font-size: xx-large;
+}
+#unorderedred{
+    color: red;
+    background-color: white;
+}
+#unorderedred2{
+    color: red;
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
