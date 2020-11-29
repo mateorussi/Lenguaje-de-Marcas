@@ -70,10 +70,13 @@ nav > a {
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
+    background-color: black;
 }
 
 nav > a:hover {
     text-decoration: underline;
+    background-color: red;
+
 }
 header .textos-header{
     display: flex;
