@@ -48,13 +48,6 @@ header label:hover{
 header{
     width: 100%;
     height: 600px;
-    background: #1E9600;  
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(0, 100%, 50%, 0.582), hsla(57, 100%, 50%, 0.658), hsla(108, 100%, 29%, 0.637)), url(../Proyecto/imagen-portada.jpg);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 100%, 50%, 0.582), hsla(57, 100%, 50%, 0.658), hsla(108, 100%, 29%, 0.637)), url(../Proyecto/imagen-portada.jpg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     background-size: cover;
     background-attachment: fixed;
     position: relative;
