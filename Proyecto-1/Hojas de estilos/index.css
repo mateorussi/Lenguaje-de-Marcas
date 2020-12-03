@@ -1,3 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* ----------> header */
+
+#carousel-ubicacion{
+
+}
+
+.navbar .nav .nav-link{
+    color: red;
+
+}
+.navbar{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.cover{
+    font-family: sans-serif;
+    color: #FFF;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:50%; 
+    text-align: center;
+    font-size: 2em;
+}
+
+/* icono menu */
+
+.selector-tema{
+    width: 40px;
+    height: 40px;
+}
+.menu{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+/* -----------> body */
+
+
+/* tarjetas */
+
+#tarjetas-general{
+
+}
+
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+    ;
+    
+}
+
+
+
 /*no es mio */
 
 .contenedor{  
@@ -422,3 +489,6 @@ main .sobre-nosotros{
     }
 
 }
+
+
+
