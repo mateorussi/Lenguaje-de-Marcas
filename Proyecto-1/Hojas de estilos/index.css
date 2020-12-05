@@ -10,21 +10,25 @@ body{
 
 /* ----------> header */
 
-#carousel-ubicacion{
-
+.container-header{
+    background-color: white;
+    padding: 50px;
+    border: none;
+    margin: auto;
 }
-
-.navbar .nav .nav-link{
-    color: red;
-
+.carousel-ubicacion{
+   height: ;
 }
 .navbar{
     position: absolute;
     left: 40px;
     top: 40px;
 }
+.navbar .nav .nav-link{
+    color: red;
 
-.cover{
+}
+.titulo{
     font-family: sans-serif;
     color: #FFF;
     width: 100%;
@@ -34,14 +38,11 @@ body{
     text-align: center;
     font-size: 2em;
 }
-
-/* icono menu */
-
 .selector-tema{
     width: 40px;
     height: 40px;
 }
-.menu{
+.navbar-imagen{
     position: absolute;
     top: 40px;
     right: 40px;
