@@ -143,12 +143,84 @@ body{
     cursor: pointer;
 }
 
-/* Elon Musk
+/* Elon Musk */
 
+.elon-musk{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+}
 
+.elon-musk .figure-img{
+    background: url(../Imagenes/leonardo-da-vinci.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-color: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: soft-light;
 
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elon-musk .figure-img h4{
+    font-family: 'Oxygen Mono', monospace;
+    width: 80%;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 60px;
 
+}
+.skew-abajo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 5vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent;
+}
+.skew-arriba{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 5vh 100vw 0 0;
+    border-style: solid;
+    border-color: #ffffff transparent transparent transparent;
+    z-index: 10;
+}
 
+/* Galeria */
+.gallery-section{
+    width: 100%;
+    margin: 150px 0px;
+}
+.gallery-container{
+    width: 80%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 350px);
+}
+.gallery-container .img-card{
+    overflow: hidden;
+}
+.gallery-container .img-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.gallery-container .img-card:hover img{
+    transform: scale(1.5) rotate(30deg);
+}
 
 
 
