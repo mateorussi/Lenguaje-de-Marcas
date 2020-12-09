@@ -1,0 +1,15 @@
+@media only screen and (max-width:800px){
+    /* Header */
+    .img-header .header-info h2{
+        font-size: 50px;
+    }
+    .img-header .header-info hr{
+        width: 400px;
+    }
+    .img-header .header-info p{
+        font-size: 19px;
+    }
+
+    /* Menu de navegación */
+    
+}
