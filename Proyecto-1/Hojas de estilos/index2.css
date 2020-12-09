@@ -150,6 +150,16 @@ body{
     cursor: pointer;
 }
 
+/* Tarjetas */
+
+.tarjetas h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: normal;
+    color: #000;
+}
+
 /* Leonardo Da Vinci */
 
 .leonardo-da-vinci{

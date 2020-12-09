@@ -15,10 +15,9 @@ window.onscroll = () =>{
         menu.classList.remove("sticky");
         main.style.marginTop = "100px";
     }
-
-    // Go Top Button 
-    if (window.pageXOffset >= 500){
-        document.querySelector(".go-top").style.right = "=" .go-top’
-    }
 }
+
+/* Resposive menu */
+
+btnMenu.addEventListener("click", () => {})
 
