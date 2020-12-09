@@ -7,7 +7,7 @@
 
 body{
     background: white;
-    font-family: 'East Sea Dokdo', cursive;
+    font-family: 'JetBrains Mono', monospace;
     overflow-x: hidden;
 }
 
@@ -68,6 +68,7 @@ body{
 /* Menu de navegación */
 
 .menu{
+    position: relative;
     width: 100%;
     height: 66px;
     background: #ffffff;
@@ -143,16 +144,16 @@ body{
     cursor: pointer;
 }
 
-/* Elon Musk */
+/* Leonardo Da Vinci */
 
-.elon-musk{
+.leonardo-da-vinci{
     position: relative;
     width: 100%;
     height: 100vh;
     margin-top: 100px;
 }
 
-.elon-musk .figure-img{
+.leonardo-da-vinci .figure-img{
     background: url(../Imagenes/leonardo-da-vinci.png);
     background-attachment: fixed;
     background-position: center;
@@ -167,7 +168,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.elon-musk .figure-img h4{
+.leonardo-da-vinci .figure-img h4{
     font-family: 'Oxygen Mono', monospace;
     width: 80%;
     color: #FFF;
