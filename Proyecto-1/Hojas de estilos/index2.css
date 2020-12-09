@@ -104,6 +104,12 @@ body{
     background: red;
     color: white;
 }
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
 
 /* Main */
 #main{
@@ -130,7 +136,7 @@ body{
     color: #000;
     line-height: 40px;
     margin: 30px 0px;
-    text-align: center;
+    text-align: justify;
 }
 .mission .meta-img{
     width: 50%;
@@ -281,7 +287,7 @@ body{
 .go-top{
     position: fixed;
     bottom: 30px;
-    right: 0;
+    right: 100%;
     width: 50px;
     height: 50px;
     background: #FFF;

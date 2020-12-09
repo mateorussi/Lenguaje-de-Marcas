@@ -158,4 +158,9 @@
     .gallery-list{
         display: none;
     }
+
+    /* Footer */
+    #footer p{
+        font-size: 12px;
+    }
 }
